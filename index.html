@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu Nombre · Desarrollador/a web</title>
+  <meta name="description" content="Portfolio de Tu Nombre, desarrollador/a web junior. Proyectos, habilidades y contacto.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+
+  <!-- Bootstrap 5.3.8 + Bootstrap Icons (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Tus estilos propios (marca personal) SIEMPRE después de Bootstrap -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       EJERCICIO 9 · MI PORTFOLIO PROFESIONAL
+       Lee ENUNCIADO.md. Rellena cada sección en su hueco.
+       ============================================================ -->
+
+  <!-- ===== NAVBAR =====
+       Tu nombre/logo + enlaces: Sobre mí (#sobre-mi) · Habilidades (#habilidades)
+       · Proyectos (#proyectos) · Formación (#formacion) · Contacto (#contacto) -->
+
+       <nav class="navbar navbar-expand-lg bg-primary sticky-top " data-bs-theme="dark">
+          
+          <div class="container">
+                    <h2-1>Marina Rodríguez Blázquez</h2-1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                         <ul class="navbar-nav ms-auto">
+                              <li class="nav-item">
+                                   <a class="nav-link active" href="#sobre-mi"><i class="bi bi-house-door"></i> Sobre mí</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link active" href="#habilidades"><i class="bi bi-journal-code"></i> Habilidades</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link active" href="#proyectos"><i class="bi bi-tag"></i> Proyectos</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link active" href="#formación"><i class="bi bi-envelope"></i> Formación</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link active" href="#contacto"><i class="bi bi-envelope"></i> Contacto</a>
+                              </li>
+                         </ul>
+
+               </div>
+          </div>
+     </nav>
+
+  <main>
+
+    <!-- ===== PORTADA · SOBRE MÍ (id="sobre-mi") =====
+         Foto o avatar (img/foto.jpg), nombre, titular profesional, 2-3 líneas sobre ti,
+         botones "Ver proyectos" y "Descargar CV" (docs/cv.pdf con atributo download) -->
+
+<section id="sobre-mi" class="py-5">
+     <div class="container">
+          <div class="row align-items-center gy-3">
+
+          <!-- Contenedor de la imagen-->
+               <div class="col-12 col-md-5 col-lg-5 text-start">
+               <img 
+                    src="img/foto.jpg" 
+                    alt="Fotografía de Marina Rodríguez Blázquez" 
+                    class="img-fluid rounded-circle shadow" 
+                    style="max-width: 280px; width: 100%; aspect-ratio: 1/1; object-fit: cover;">
+               </div>
+
+     <!-- Contenedor del texto-->
+               <div class="col-12 col-md-7 col-lg-6">
+                    <h1 class="display-4 fw-bold mb-2">Marina Rodríguez Blázquez</h1>
+                    <h2 class="lead mb-3">Desarrolladora Web</h2>
+                    <p class="mb-4">
+                         Desarrolladora web con formación en DAW y experiencia en diseño, maquetación y corrección de HTML. Base en Comunicación y SEO. Con capacidad de análisis, organización y trabajo en equipo. Busco desarrollarme profesionalmente en un entorno dinámico donde pueda aplicar mis conocimientos y seguir aprendiendo.
+                    </p>
+
+                    <!--Contenedor para los botones-->
+                    <div class="d-flex flex-wrap gap-3">
+                         <a href="#proyectos" class="btn btn-primary btn-lg">Ver proyectos</a>
+                         <a href="docs/cv.pdf" class="btn btn-outline-secondary btn-lg" download="CV_Marina_Rodriguez.pdf">Descargar CV</a>
+
+                    </div> <!--Cierre del contenedor de botones-->
+               </div> <!--Cierre contenedor de texto-->
+
+          </div> <!-- Cierre del row -->
+     </div><!--Cierre contenedor-->
+</section>
+
+    <!-- ===== HABILIDADES (id="habilidades") =====
+         Grupos: Front-end · Back-end · Bases de datos · Herramientas · Idiomas
+         Idea: una card por grupo con badges o iconos -->
+
+
+<section id="habilidades">
+     <div class="container py-5">
+                  <h2 class="text-center mb-4">Habilidades</h2>
+
+    <div class="row row-cols-1 g-4">
+
+      <!-- Habilidades técnicas -->
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title h4 mb-4">Habilidades técnicas</h3>
+
+            <h4 class="h6 text-muted text-uppercase">Programación</h4>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Java</span>
+              <span class="badge text-bg-primary">Angular</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">SQL</span>
+              <span class="badge text-bg-primary">XML</span>
+              <span class="badge text-bg-primary">XSD</span>
+              <span class="badge text-bg-primary">DTD</span>
+            </div>
+
+            <h4 class="h6 text-muted text-uppercase">Herramientas de desarrollo</h4>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="badge text-bg-secondary">Maven</span>
+              <span class="badge text-bg-secondary">JUnit 5</span>
+              <span class="badge text-bg-secondary">Docker</span>
+              <span class="badge text-bg-secondary">Postman</span>
+              <span class="badge text-bg-secondary">Figma</span>
+            </div>
+
+            <h4 class="h6 text-muted text-uppercase">Digitales</h4>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="badge text-bg-success">Microsoft Office</span>
+              <span class="badge text-bg-success">WordPress</span>
+              <span class="badge text-bg-success">SEO</span>
+              <span class="badge text-bg-success">RRSS</span>
+              <span class="badge text-bg-success">Canva</span>
+            </div>
+
+            <h4 class="h6 text-muted text-uppercase">Edición multimedia</h4>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="badge text-bg-info">Premiere</span>
+              <span class="badge text-bg-info">DaVinci Resolve</span>
+              <span class="badge text-bg-info">Photoshop</span>
+            </div>
+
+            <h4 class="h6 text-muted text-uppercase">Diseño</h4>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="badge text-bg-warning">Identidad de marca</span>
+              <span class="badge text-bg-warning">Diseño 2D</span>
+              <span class="badge text-bg-warning">Infografía</span>
+              <span class="badge text-bg-warning">Cartelería</span>
+            </div>
+
+            <h4 class="h6 text-muted text-uppercase">Otros</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge text-bg-light border">Carnet de conducir B</span>
+              <span class="badge text-bg-light border">Cámaras DSLR</span>
+              <span class="badge text-bg-light border">Herramientas multimedia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Idiomas -->
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title h4 mb-4">Idiomas</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Español <span class="badge text-bg-dark">Nativo</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Inglés <span class="badge text-bg-dark">C1</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Francés <span class="badge text-bg-dark">B1</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Italiano <span class="badge text-bg-dark">A2</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title h4 mb-4">Soft Skills</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge rounded-pill text-bg-primary">Organización de actividades</span>
+              <span class="badge rounded-pill text-bg-primary">Elaboración de materiales</span>
+              <span class="badge rounded-pill text-bg-primary">Seguimiento de proyectos</span>
+              <span class="badge rounded-pill text-bg-primary">Formación y gestión</span>
+              <!--Tengo que añadir más-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- ===== PROYECTOS (id="proyectos") =====
+         Mínimo 3 cards: captura (img/), descripción, badges de tecnologías,
+         botones "Demo" y "Código" (GitHub). Idea JS: modal con el detalle -->
+<section id="proyectos">
+      <div class="container py-4 py-md-5">
+    <h2 class="text-center mb-4">Proyectos</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+     <!--Proyecto POkedex-->
+      <div class="col">
+          <div class="card shadow-sm h-100">
+
+          <img src="img/pokedex.png" class="card-img-top" alt="Captura de la Pokédex de escritorio con Oracle"> <!--METER CAPTURA-->
+
+          <div class="card-body d-flex flex-column">
+               <h3 class="card-title h5">Pokédex de escritorio con Oracle</h3>
+               <small class="text-muted mb-2">2026</small>
+               <p class="card-text">Aplicación de escritorio en Java para gestionar una Pokédex sobre base de datos Oracle: altas, búsquedas por nombre, tipo e ID, modificación y borrado. Uso de hilos para evitar bloqueos.</p>
+               <p class="card-text">Separación de lógica de negocio, capa de conexión JDBC e interfaz gráfica.</p>
+
+               <div class="d-flex flex-wrap gap-2 mb-3">
+               <span class="badge text-bg-primary">Java</span>
+               <span class="badge text-bg-primary">Swing</span>
+               <span class="badge text-bg-primary">JDBC</span>
+               <span class="badge text-bg-primary">Oracle XE</span>
+               </div>
+
+               <div class="mt-auto d-flex justify-content-end">
+               <a href="" class="btn btn-primary">Enlace a GitHub</a><!--METER ENLACE-->
+               </div>
+          </div>
+          </div>
+     </div>
+
+
+     <!--Automatización-->
+           <div class="col">
+          <div class="card shadow-sm h-100">
+
+          <img src="img/selenium.png" class="card-img-top" alt="Captura de automatización de pruebas en Selenium"> <!--METER CAPTURA-->
+
+          <div class="card-body d-flex flex-column">
+               <h3 class="card-title h5">Automatización de pruebas con Selenium (Completar)</h3>
+               <small class="text-muted mb-2">2026</small>
+               <p class="card-text">Aplicación de escritorio en Java para gestionar una Pokédex sobre base de datos Oracle: altas, búsquedas por nombre, tipo e ID, modificación y borrado. Uso de hilos para evitar bloqueos.</p>
+               <p class="card-text">Separación de lógica de negocio, capa de conexión JDBC e interfaz gráfica.</p>
+
+               <div class="d-flex flex-wrap gap-2 mb-3">
+               <span class="badge text-bg-primary">Java</span>
+               <span class="badge text-bg-primary">Swing</span>
+               <span class="badge text-bg-primary">JDBC</span>
+               <span class="badge text-bg-primary">Oracle XE</span>
+               </div>
+
+               <div class="mt-auto d-flex justify-content-end">
+               <a href="" class="btn btn-primary">Enlace a GitHub</a><!--METER ENLACE-->
+               </div>
+          </div>
+          </div>
+     </div>
+
+
+     <!--Refactorización y Clean Code-->
+                <div class="col">
+          <div class="card shadow-sm h-100">
+
+          <img src="img/cleancode.png" class="card-img-top" alt="Captura de refactorización y Clean Code"> <!--METER CAPTURA-->
+
+          <div class="card-body d-flex flex-column">
+               <h3 class="card-title h5">Refactorización y Clean Code (Completar)</h3>
+               <small class="text-muted mb-2">2026</small>
+               <p class="card-text">Aplicación de escritorio en Java para gestionar una Pokédex sobre base de datos Oracle: altas, búsquedas por nombre, tipo e ID, modificación y borrado. Uso de hilos para evitar bloqueos.</p>
+               <p class="card-text">Separación de lógica de negocio, capa de conexión JDBC e interfaz gráfica.</p>
+
+               <div class="d-flex flex-wrap gap-2 mb-3">
+               <span class="badge text-bg-primary">Java</span>
+               <span class="badge text-bg-primary">Swing</span>
+               <span class="badge text-bg-primary">JDBC</span>
+               <span class="badge text-bg-primary">Oracle XE</span>
+               </div>
+
+               <div class="mt-auto d-flex justify-content-end">
+               <a href="" class="btn btn-primary">Enlace a GitHub</a><!--METER ENLACE-->
+               </div>
+          </div>
+          </div>
+     </div>
+
+
+     </div>
+
+</section>
+
+    <!-- ===== FORMACIÓN Y EXPERIENCIA (id="formacion") =====
+         CFGS DAW, prácticas (FFEOE), cursos, certificaciones.
+         Idea: list-group o accordion -->
+<section id="formacion">
+<div class="container py-4 py-md-5">
+    <h2 class="text-center mb-4">Formación y experiencia</h2>
+
+    <div class="row g-4">
+
+     <!--Experiencia Laboral-->
+     <div class="col-12 col-lg-6">
+        <h3 class="h4 text-center mb-3">Experiencia laboral</h3>
+
+        <div class="accordion shadow-sm" id="accordionExperiencia">
+
+          <!--Piccaso-->
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="true" aria-controls="exp1">
+                <span>
+                  <strong class="d-block">Desarrollador web</strong>
+                  <span class="d-block small">Picasso Business Center</span>
+                  <small class="d-block text-muted">02/2026 – 03/2026</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp1" class="accordion-collapse collapse show" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Documentación de procesos y corrección de estructuras HTML.</li>
+                  <li>Diseño y maquetación de páginas web.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--Doctorado-->
+
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false" aria-controls="exp2">
+                <span>
+                  <strong class="d-block">Doctorado en Comunicación</strong>
+                  <span class="d-block small">Universidad de Sevilla</span>
+                  <small class="d-block text-muted">10/2022 – Actualmente</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp2" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Investigación en comunicación europea y gestión documental.</li>
+                  <li>Elaboración de artículos académicos y materiales formativos.</li>
+                  <li>Análisis de datos y creación de infografías.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--Radio-->
+
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp3" aria-expanded="false" aria-controls="exp3">
+                <span>
+                  <strong class="d-block">Locutor de radio (programa Europeandus)</strong>
+                  <span class="d-block small">Centro de Documentación Europea de Sevilla</span>
+                  <small class="d-block text-muted">10/2022 – 06/2024</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp3" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Creación y adaptación de contenidos para distintos públicos.</li>
+                  <li>Comunicación oral y divulgación en programas de radio.</li>
+                  <li>Difusión de información en entornos digitales.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Técnico de Comunicación-->
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp4" aria-expanded="false" aria-controls="exp4">
+                <span>
+                  <strong class="d-block">Técnico de Comunicación</strong>
+                  <span class="d-block small">Europe Direct Sevilla</span>
+                  <small class="d-block text-muted">09/2022 – 11/2022</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp4" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Redacción de posts informativos para web y redes sociales.</li>
+                  <li>Elaboración de newsletters y contenidos formativos.</li>
+                  <li>Organización de jornadas y eventos (Taller EURES).</li>
+                  <li>Estrategia digital y posicionamiento SEO.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--Técnico de proyectos europeos-->
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp5" aria-expanded="false" aria-controls="exp5">
+                <span>
+                  <strong class="d-block">Técnico en Proyectos Europeos</strong>
+                  <span class="d-block small">IQ2 Project</span>
+                  <small class="d-block text-muted">05/2022 – 07/2022</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp5" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Apoyo en la edición, corrección y maquetación de los documentos.</li>
+                  <li>Creación de mapas conceptuales y materiales formativos.</li>
+                  <li>Colaboración en la revisión de planes estratégicos.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--Profesora-->
+          <div class="accordion-item">
+            <h4 class="accordion-heade ">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp6" aria-expanded="false" aria-controls="exp6">
+                <span>
+                  <strong class="d-block">Profesora de Lengua Castellana y Literatura</strong>
+                  <span class="d-block small">Colegio Antonio Gala</span>
+                  <small class="d-block text-muted">01/2021 – 05/2021</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp6" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Planificación, adaptación y desarrollo de contenidos educativos.</li>
+                  <li>Gestión de grupos grandes y dinamización de clases.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--Periodista Económico-->
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp7" aria-expanded="false" aria-controls="exp7">
+                <span>
+                  <strong class="d-block">Periodista Económico</strong>
+                  <span class="d-block small">Inveert Smart Planning</span>
+                  <small class="d-block text-muted">01/2020 – 03/2020</small>
+                </span>
+              </button>
+            </h4>
+            <div id="exp7" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+              <div class="accordion-body">
+                <ul class="mb-0 ps-3">
+                  <li>Redacción de artículos divulgativos sobre economía y educación financiera.</li>
+                  <li>Elaboración de infografías y contenidos digitales. Optimización SEO.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--Formación-->
+      <div class="col-12 col-lg-6">
+        <h3 class="h4 text-center mb-3">Formación</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-1 g-3">
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h4 class="h6 card-title mb-1">Técnico Superior en Desarrollo de Aplicaciones Web</h4>
+                <p class="card-text mb-1">Davante MEDAC Sevilla</p>
+                <small class="text-muted">2025 – Actualidad</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h4 class="h6 card-title mb-1">Doctorado en Comunicación</h4>
+                <p class="card-text mb-1">Universidad de Sevilla</p>
+                <small class="text-muted">2022 – Actualidad</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h4 class="h6 card-title mb-1">Máster en Estudios Europeos</h4>
+                <p class="card-text mb-1">Universidad de Sevilla</p>
+                <small class="text-muted">2021 – 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h4 class="h6 card-title mb-1">Máster en Profesorado de Educación Secundaria y Bachillerato, FP y Enseñanza de Idiomas</h4>
+                <p class="card-text mb-1">Universidad de Sevilla</p>
+                <small class="text-muted">2020 – 2021</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h4 class="h6 card-title mb-1">Grado en Periodismo</h4>
+                <p class="card-text mb-1">Universidad de Sevilla</p>
+                <small class="text-muted">2016 – 2020</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h4 class="h6 card-title mb-1">Grado Medio Profesional en Música</h4>
+                <p class="card-text mb-1">Conservatorio Manuel de Falla</p>
+                <small class="text-muted">2010 – 2017</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+</section>
+
+    <!-- ===== CONTACTO (id="contacto") =====
+         Formulario con validación (nombre, email, asunto, mensaje)
+         + enlaces a email, LinkedIn y GitHub -->
+<section id="contacto">
+      <div class="container py-4 py-md-5">
+    <h2 class="text-center mb-4">Contacto</h2>
+
+    <div class="row g-4">
+
+      <!--Formulario-->
+       <div class="col-12 col-lg-8">
+        <div class="card shadow-sm bg-primary-subtle h-100">
+          <div class="card-body">
+            <h3 class="card-title h4 mb-3">Para más información:</h3>
+
+            <div id="mensajeExito" class="alert alert-success d-none" role="alert">
+              ¡Gracias! Tu mensaje se ha enviado correctamente.
+            </div>
+
+            <!--Añadir servicio-->
+            <form id="formContacto" class="needs-validation" novalidate>
+              <div class="row g-3">
+
+                <!-- Nombre y email -->
+                <div class="col-12 col-lg-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" minlength="2" required>
+                  <div class="invalid-feedback">Escribe tu nombre (mínimo 2 caracteres).</div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <div class="invalid-feedback">Introduce un email válido.</div>
+                </div>
+
+                <div class="col-12">
+                  <label for="asunto" class="form-label">Asunto</label>
+                  <input type="text" class="form-control" id="asunto" name="asunto" required>
+                  <div class="invalid-feedback">Indica el asunto del mensaje.</div>
+                </div>
+
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="5" minlength="10" required></textarea>
+                  <div class="invalid-feedback">Escribe un mensaje (mínimo 10 caracteres).</div>
+                </div>
+
+                <!-- Botón -->
+                <div class="col-12 d-grid d-md-flex justify-content-md-end">
+                  <button type="submit" class="btn btn-primary btn-lg px-4">Enviar</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+ <!--Enlaces-->
+     <div class="col-12 col-lg-4">
+          <div class="row row-cols-1 g-3">
+
+          <!--Email-->
+          <div class="col ">
+               <div class="h-100">
+                    <h3 class="h6 text-primary text-uppercase text-center mb-2">Email</h3>
+                    <div class="d-flex justify-content-center justify-content-lg-start align-items-center gap-3 ps-md-5">
+                    <i class="bi bi-envelope fs-2 text-primary flex-shrink-0" aria-hidden="true"></i>
+                    <div class="overflow-hidden">
+                         <a href="mailto:rodriguez.blazquez.marina@gmail.com" class="link-secondary text-break">rodriguez.blazquez.marina@gmail.com</a>
+                    </div>
+                    </div>
+               </div>
+               </div>
+          
+          <!--Linkedin-->
+          <div class="col">
+               <div class="h-100">
+                    <h3 class="h6 text-primary text-uppercase text-center mb-2">LinkedIn</h3>
+                    <div class="d-flex justify-content-center justify-content-lg-start align-items-center gap-3 ps-md-5">
+                    <i class="bi bi-linkedin fs-2 text-primary flex-shrink-0" aria-hidden="true"></i>
+                    <div class="overflow-hidden">
+                         <a href="https://www.linkedin.com/in/mrb-sf1998/" class="link-secondary text-break" target="_blank" rel="noopener">linkedin.com/in/mrb-sf1998/</a>
+                    </div>
+                    </div>
+               </div>
+               </div>
+
+          <!-- GitHub -->
+          <div class="col">
+          <div class="h-100">
+               <h3 class="h6 text-primary text-uppercase text-center mb-2">GitHub</h3>
+               <div class="d-flex justify-content-center justify-content-lg-start align-items-center gap-3 ps-md-5">
+               <i class="bi bi-github fs-2 text-primary flex-shrink-0" aria-hidden="true"></i>
+               <div class="overflow-hidden">
+                    <!-- 👉 AQUÍ tu URL de GitHub -->
+                    <a href="https://github.com/RoBlazMarina" class="link-secondary text-break" target="_blank" rel="noopener">github.com/RoBlazMarina</a>
+               </div>
+               </div>
+          </div>
+          </div>
+
+     
+     </div>
+
+       
+</section>
+  </main>
+
+  <!-- ===== FOOTER =====
+       © año + tu nombre · iconos de redes (con aria-label) · "Última actualización: ..." -->
+<footer class="bg-primary text-light py-3">
+  <div class="container">
+    <div class="row align-items-center gy-2 text-center">
+
+     <!--Copy-->
+     <div class="col-12 col-md-6 col-lg-4 text-md-start">
+        <p class="mb-0 fw-lighter text-light">
+          &copy; <span id="anio">2026</span> Marina Rodríguez Blázquez
+        </p>
+      </div>
+
+     <!--Redes-->
+     <div class="col-12 col-md-6 col-lg-4 text-md-end text-lg-center"> <!--Meter URL-->
+        <a href="mailto:rodriguez.blazquez.marina@gmail.com" class="link-light fs-4 mx-2" aria-label="Enviar un email a Marina">
+          <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mrb-sf1998/" class="link-light fs-4 mx-2" aria-label="Perfil de LinkedIn de Marina" target="_blank" rel="noopener">
+          <i class="bi bi-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/RoBlazMarina" class="link-light fs-4 mx-2" aria-label="Perfil de GitHub de Marina" target="_blank" rel="noopener">
+          <i class="bi bi-github" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!--Última actualización-->
+      <div class="col-12 col-lg-4 text-lg-end">
+        <small class="fw-lighter">Última actualización: <span id="actualizacion">noviembre de 2026</span></small>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+
+  <!-- Botón para volver al índice del proyecto de clase (bórralo al publicar tu portfolio) -->
+  <a href="../index.html" class="btn btn-sm btn-secondary position-fixed bottom-0 end-0 m-3 z-3">← Índice</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Tu JavaScript (validación del formulario, modo oscuro...) -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!--COSAS PENDIENTES:
+* Cambiar iconos del NAV
+* Poner fondo primary sibtle a las tarjetas de habilidades pares
+* Poner más competencias interpersonales
+* Poner Capturas en los proyectos
+* Enlazar proyectos
+* Cambiar las descripciones de los proyectos por las adecuadas
+* Meter hover en los cuadros de la formación
+-->

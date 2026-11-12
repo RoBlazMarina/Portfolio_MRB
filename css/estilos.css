@@ -1,0 +1,81 @@
+/* ============================================================
+   Estilos propios del portfolio (marca personal)
+   Usa el mínimo CSS posible: primero intenta con clases de Bootstrap.
+   ============================================================ */
+
+/* Ejemplo: cambia el color principal de Bootstrap por el tuyo
+:root {
+  --bs-primary: #0d6efd;
+  --bs-primary-rgb: 13, 110, 253;
+}
+*/
+
+
+
+:root{
+  --bs-primary: #1A471A;
+  --bs-primary-rgb: 26, 71, 26;
+  --bs-primary-bg-subtle:#559a5576;
+  --bs-primary-bg-subtle-rgb: 85, 154, 85, 0.463;
+
+  --bs-secondary:#471A1A;
+  --bs-secondary-rgb: 71, 26, 26;
+}
+
+/*Los botones tienen que definirse con una dependencia diferente, porque no leen el color primario ni secundario*/
+
+.btn-primary {
+  --bs-btn-bg:#1A471A;
+  --bs-btn-border-color: #1A471A;
+  --bs-btn-hover-bg: #471A1A;
+  --bs-btn-hover-border-color: #471A1A;
+  --bs-btn-active-bg: #471A1A;
+  --bs-btn-active-border-color: #200c0c;
+  --bs-btn-focus-shadow-rgb: 71, 26, 26;
+  --bs-btn-color: #ffffff;
+}
+
+.btn-outline-secondary{
+  --bs-brn-bg:  #471A1A;
+  --bs-btn-border-color:  #471A1A;
+  --bs-btn-hover-bg: #471A1A;
+  --bs-btn-hover-border-color: #471A1A;
+  --bs-btn-active-bg: #471A1A;
+  --bs-btn-active-border-color: #200c0c;
+  --bs-btn-focus-shadow-rgb: 71, 26, 26;
+  --bs-btn-color: #471A1A;
+}
+
+/* Desplazamiento suave al pulsar los enlaces del menú */
+html { scroll-behavior: smooth; }
+
+/* Que el título de cada sección no quede tapado por la navbar fija */
+section { scroll-margin-top: 70px; }
+
+h2-1{ color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px;}
+
+h1{color: #1A471A;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+h2{color:  #471A1A;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  ;}
+
+
+p{color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align:left}
+
+
+
+/*Cambio de colores y formas del acordeón*/
+
+#accordionExperiencia {
+  --bs-accordion-border-color: #471A1A;
+  --bs-accordion-active-bg: #c9e7c9;
+  --bs-accordion-active-color: #471A1A;
+  --bs-accordion-btn-focus-border-color: var(--bs-primary-border-subtle);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #559a5576;);
+}
