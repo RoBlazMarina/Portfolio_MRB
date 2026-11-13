@@ -78,7 +78,7 @@ text-align:left}
   --bs-accordion-active-bg: #c9e7c9;
   --bs-accordion-active-color: #471A1A;
   --bs-accordion-btn-focus-border-color: var(--bs-primary-border-subtle);
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #559a5576;);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #559a5576;
 }
 
 .card-hover {
