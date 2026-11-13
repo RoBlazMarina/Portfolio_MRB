@@ -80,3 +80,22 @@ text-align:left}
   --bs-accordion-btn-focus-border-color: var(--bs-primary-border-subtle);
   --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #559a5576;);
 }
+
+.card-hover {
+  transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+  
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+.card-hover .card-title {
+  transition: color .2s ease;
+}
+
+.card-hover:hover .card-title {
+  color: var(--bs-secondary-text-emphasis);
+}
