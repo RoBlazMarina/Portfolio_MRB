@@ -15,8 +15,9 @@
 :root{
   --bs-primary: #1A471A;
   --bs-primary-rgb: 26, 71, 26;
-  --bs-primary-bg-subtle:#559a5576;
-  --bs-primary-bg-subtle-rgb: 85, 154, 85, 0.463;
+  
+  --bs-primary-bg-subtle:#B0D0B0;
+  --bs-primary-bg-subtle-rgb: 176, 208, 176;
 
   --bs-secondary:#471A1A;
   --bs-secondary-rgb: 71, 26, 26;
@@ -78,7 +79,7 @@ text-align:left}
   --bs-accordion-active-bg: #c9e7c9;
   --bs-accordion-active-color: #471A1A;
   --bs-accordion-btn-focus-border-color: var(--bs-primary-border-subtle);
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #559a5576;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #B0D0B0;
 }
 
 .card-hover {
