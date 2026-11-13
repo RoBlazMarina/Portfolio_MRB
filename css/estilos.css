@@ -20,6 +20,7 @@
 
   --bs-secondary:#471A1A;
   --bs-secondary-rgb: 71, 26, 26;
+
 }
 
 /*Los botones tienen que definirse con una dependencia diferente, porque no leen el color primario ni secundario*/
