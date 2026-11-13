@@ -1,4 +1,4 @@
-# Portfolio de Tu Nombre
+# Portfolio de Marina Rodríguez Blázquez
 
 Portfolio profesional desarrollado con **HTML5 y Bootstrap 5.3** en el módulo
 Diseño de Interfaces Web (2.º DAW).

@@ -76,7 +76,7 @@ text-align:left}
 
 #accordionExperiencia {
   --bs-accordion-border-color: #471A1A;
-  --bs-accordion-active-bg: #c9e7c9;
+  --bs-accordion-active-bg: #B0D0B0;
   --bs-accordion-active-color: #471A1A;
   --bs-accordion-btn-focus-border-color: var(--bs-primary-border-subtle);
   --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #B0D0B0;
@@ -99,4 +99,7 @@ text-align:left}
 
 .card-hover:hover .card-title {
   color: var(--bs-secondary-text-emphasis);
+}
+.card-hover:target-text{
+  
 }
