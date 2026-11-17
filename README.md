@@ -149,6 +149,8 @@ Resultado:
 - Explicar cómo funciona el accordion y la apertura de nuevas pestañas con los enlaces.
 - Estructuración del README.md y formato para la tabla de contrastes.
 
-**Qué he decidido yo:** La paleta y las tipografías, el diseño de la página, el contenido, los textos y la estructura. POr ejemplo, en la revisón que realicé con la IA, aunque me pidió cambiarlo, mantuve el estilo del botón de la Pokédex y el nombre largo de la navbar con `text-wrap` porque me se adhería al estilo y diseño que me había planteado desde un principio.
+**Decisiones propias con respecto a la IA:** 
+La paleta y las tipografías, el diseño de la página, el contenido, los textos y la estructura. Por ejemplo, en la revisón que realicé con la IA, aunque me pidió cambiarlo, mantuve el estilo del botón de la Pokédex y el nombre largo de la navbar con `text-wrap` porque me se adhería al estilo y diseño que me había planteado desde un principio. En otros casos, como al optar por enlaces para las capturas del contraste en este Readme, sí he seguido lo sugerido, porque me ha parecido que el resultado quedaba más claro y limpio.
 
-**Por qué:** He usado la IA como una segunda opinión para revisar si cumplía todos los puntos del enunciado, para entender los criterios de accesibilidad y aprender cómo integrar elementos como el accordion, no para generar la web de cero. Esta web sigue siendo bastante fiel al borrador que hice de base en papel.
+**¿Por qué he usado la IA?** 
+He usado la IA como una segunda opinión para revisar si cumplía todos los puntos del enunciado, para entender los criterios de accesibilidad y aprender cómo integrar elementos como el accordion, no para generar la web de cero. Esta web sigue siendo bastante fiel al borrador que hice de base en papel.
