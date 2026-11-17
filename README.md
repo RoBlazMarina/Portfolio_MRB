@@ -71,19 +71,42 @@ Mínimos: 4,5:1 en texto normal y 3:1 en texto grande, iconos, bordes e indicado
 
 | Combinación | Dónde se usa | Ratio | Resultado |
 |---|---|---|---|
-| Blanco sobre `#1A471A` | Navbar, footer, botones primarios | 10,71:1 | ✅ AA |
+| Blanco sobre `#1A471A` | Navbar, footer, botones primarios | 10,71:1 | ✅ AA | 
+![Contraste de Blanco sobre Color primario](docs/evidencias/Blanco-sobre-primario.png)
 | `#1A471A` sobre blanco | `h1`, enlaces, iconos, títulos de card | 10,71:1 | ✅ AA |
-| `#471A1A` sobre blanco | `h2`, botón outline, foco, bordes de campos | 14,68:1 | ✅ AA |
+![Contraste de Primario sobre Blanco](docs/evidencias/Primario-sobre-blanco.png)
+| `#471A1A` sobre blanco | `h2`, botón outline, foco, bordes de campos | 14,67:1 | ✅ AA |
+![Contraste de Secundario sobre Blanco](docs/evidencias/Secundario-sobre-blanco.png)
 | `#471A1A` sobre `#B0D0B0` | Títulos y enlaces en cards verdes, bordes de campos en el formulario | 8,73:1 | ✅ AA |
+![Contraste de Secundario sobre Primario atenuado](docs/evidencias/Secundario-sobre-primario-v2.png)
 | `#1A471A` sobre `#B0D0B0` | Texto verde sobre fondo claro | 6,37:1 | ✅ AA |
-| Blanco sobre `#471A1A` | Hover y pulsado de botones | 14,68:1 | ✅ AA |
-| `#212529` sobre blanco | Texto del cuerpo | 15,43:1 | ✅ AA |
-| `#212529` sobre `#B0D0B0` | Texto del cuerpo en cards verdes | 9,18:1 | ✅ AA |
+(No se usa esta combinación)
+![Contraste de Primario sobre Primario atenuado](docs/evidencias/Primario-sobre-primario-v2.png)
+
+| Blanco sobre `#471A1A` | Hover y pulsado de botones | 14,67:1 | ✅ AA |
+![Contraste de Blanco sobre secundario](docs/evidencias/Blanco-sobre-secundario.png)
+
+| `#212529` sobre blanco | Texto del cuerpo | 15,42:1 | ✅ AA |
+![Contraste de texto sobre blanco](docs/evidencias/Texto-sobre-blanco.png)
+
+| `#212529` sobre `#B0D0B0` | Texto del cuerpo en cards verdes | 9,17:1 | ✅ AA |
+![Contraste de texto sobre blanco](docs/evidencias/Texto-sobre-blanco.png)
+
 | `text-muted` (`#585C5E`) sobre blanco | Fechas | 6,76:1 | ✅ AA |
+![Contraste de texto sobre primario atenuado](docs/evidencias/Texto-sobre-primario-v2.png)
+
 | `text-muted` (`#45504B`) sobre `#B0D0B0` | Fechas en cards verdes | 4,99:1 | ✅ AA |
-| Error `#842029` sobre `#B0D0B0` | Mensajes de validación | 5,63:1 | ✅ AA |
+![Contraste texto atenuado sobre primario atenuado](docs/evidencias/Texto-v2-sobre-primario-v2.png)
+
+| Error `#842029` sobre `#B0D0B0` | Mensajes de validación | 5,62:1 | ✅ AA |
+![Contraste de error sobre primario atenuado](docs/evidencias/Error-sobre-primario-v2.png)
+
 | Error `#842029` sobre blanco | Mensajes de validación | 9,46:1 | ✅ AA |
-| Éxito `#0F5132` sobre `#B0D0B0` | Validación correcta | 5,57:1 | ✅ AA |
+
+![Contraste de error sobre blanco](docs/evidencias/Error-sobre-blanco.png)
+
+| Éxito `#0F5132` sobre `#B0D0B0` | Validación correcta | 5,56:1 | ✅ AA |
+![Contraste de éxito sobre primario atenuado](docs/evidencias/Exito-sobre-primario-v2.png)
 
 No hay modo oscuro, por lo que el contraste solo se comprueba en el tema claro.
 
@@ -102,39 +125,48 @@ No hay modo oscuro, por lo que el contraste solo se comprueba en el tema claro.
 
 | Categoría | Puntuación |
 |---|---|
-| Rendimiento | [..] |
-| Accesibilidad | [..] |
-| Buenas prácticas | [..] |
-| SEO | [..] |
+| Rendimiento | 99 |
+| Accesibilidad | 100 |
+| Prácticas recomendadas | 100 |
+| SEO | 100 |
 
 ![Informe de Lighthouse](docs/evidencias/lighthouse.png)
 
 ### WAVE
 
-Resultado: [n.º de errores y de errores de contraste, y qué alertas quedan y por qué].
+Resultado: 
+N.º de errores - 0
+Errores de contraste - 0
+Alertas quedan y por qué - 1 Alerta - Por el link al pdf, porque no sabe si tiene problemas de accesibilidad el documento o no.
+
+Puntuación 10/10
 
 ![Informe de WAVE](docs/evidencias/wave.png)
 
 ### Validador HTML (W3C)
 
-Resultado: [sin errores / n avisos y por qué].
+Resultado: 
+0 errores
+0 avisos
 
 ![Validador HTML](docs/evidencias/validador-html.png)
 
 ### Validador CSS (W3C Jigsaw)
 
-Resultado: [sin errores / n avisos y por qué].
+Resultado:
+0 errores
+0 avisos
 
 ![Validador CSS](docs/evidencias/validador-css.png)
 
 ## Declaración de uso de IA
 
-**Herramienta:** Claude (Anthropic).
+**Herramienta:** Claude
 
 **Para qué la he usado:**
-- Revisar mi código frente al enunciado y listar los requisitos pendientes.
+- Revisar código frente al enunciado y listar los requisitos pendientes.
 - Detectar errores: erratas en clases y variables CSS, estilos en línea, detectar selector de `id` en css y cómo solventarlo, `async` ausente en el JS.
-- Proponer soluciones de accesibilidad: enlace «Saltar al contenido», foco visible, `prefers-reduced-motion` y colores de validación con mejor contraste.
+- Consultar sobre accesibilidad: enlace «Saltar al contenido», foco visible, `prefers-reduced-motion` y colores de validación con mejor contraste.
 - Calcular los ratios de contraste de la paleta.
 - Explicar cómo conectar el formulario con Formspree y escribir el código de envío con `fetch`.
 - Explicar cómo funciona el accordion y la apertura de nuevas pestañas con los enlaces.
