@@ -69,44 +69,21 @@ ej09-portfolio/
 
 Mínimos: 4,5:1 en texto normal y 3:1 en texto grande, iconos, bordes e indicador de foco.
 
-| Combinación | Dónde se usa | Ratio | Resultado |
-|---|---|---|---|
-| Blanco sobre `#1A471A` | Navbar, footer, botones primarios | 10,71:1 | ✅ AA | 
-![Contraste de Blanco sobre Color primario](docs/evidencias/Blanco-sobre-primario.png)
-| `#1A471A` sobre blanco | `h1`, enlaces, iconos, títulos de card | 10,71:1 | ✅ AA |
-![Contraste de Primario sobre Blanco](docs/evidencias/Primario-sobre-blanco.png)
-| `#471A1A` sobre blanco | `h2`, botón outline, foco, bordes de campos | 14,67:1 | ✅ AA |
-![Contraste de Secundario sobre Blanco](docs/evidencias/Secundario-sobre-blanco.png)
-| `#471A1A` sobre `#B0D0B0` | Títulos y enlaces en cards verdes, bordes de campos en el formulario | 8,73:1 | ✅ AA |
-![Contraste de Secundario sobre Primario atenuado](docs/evidencias/Secundario-sobre-primario-v2.png)
-| `#1A471A` sobre `#B0D0B0` | Texto verde sobre fondo claro | 6,37:1 | ✅ AA |
-(No se usa esta combinación)
-![Contraste de Primario sobre Primario atenuado](docs/evidencias/Primario-sobre-primario-v2.png)
-
-| Blanco sobre `#471A1A` | Hover y pulsado de botones | 14,67:1 | ✅ AA |
-![Contraste de Blanco sobre secundario](docs/evidencias/Blanco-sobre-secundario.png)
-
-| `#212529` sobre blanco | Texto del cuerpo | 15,42:1 | ✅ AA |
-![Contraste de texto sobre blanco](docs/evidencias/Texto-sobre-blanco.png)
-
-| `#212529` sobre `#B0D0B0` | Texto del cuerpo en cards verdes | 9,17:1 | ✅ AA |
-![Contraste de texto sobre blanco](docs/evidencias/Texto-sobre-blanco.png)
-
-| `text-muted` (`#585C5E`) sobre blanco | Fechas | 6,76:1 | ✅ AA |
-![Contraste de texto sobre primario atenuado](docs/evidencias/Texto-sobre-primario-v2.png)
-
-| `text-muted` (`#45504B`) sobre `#B0D0B0` | Fechas en cards verdes | 4,99:1 | ✅ AA |
-![Contraste texto atenuado sobre primario atenuado](docs/evidencias/Texto-v2-sobre-primario-v2.png)
-
-| Error `#842029` sobre `#B0D0B0` | Mensajes de validación | 5,62:1 | ✅ AA |
-![Contraste de error sobre primario atenuado](docs/evidencias/Error-sobre-primario-v2.png)
-
-| Error `#842029` sobre blanco | Mensajes de validación | 9,46:1 | ✅ AA |
-
-![Contraste de error sobre blanco](docs/evidencias/Error-sobre-blanco.png)
-
-| Éxito `#0F5132` sobre `#B0D0B0` | Validación correcta | 5,56:1 | ✅ AA |
-![Contraste de éxito sobre primario atenuado](docs/evidencias/Exito-sobre-primario-v2.png)
+| Combinación | Dónde se usa | Ratio | Resultado | Captura |
+|---|---|---|---|---|
+| Blanco sobre `#1A471A` | Navbar, footer, botones primarios | 10,71:1 | ✅ AA | [Ver](docs/evidencias/Blanco-sobre-primario.png) |
+| `#1A471A` sobre blanco | `h1`, enlaces, iconos, títulos de card | 10,71:1 | ✅ AA | [Ver](docs/evidencias/Primario-sobre-blanco.png) |
+| `#471A1A` sobre blanco | `h2`, botón outline, foco, bordes de campos | 14,67:1 | ✅ AA | [Ver](docs/evidencias/Secundario-sobre-blanco.png) |
+| `#471A1A` sobre `#B0D0B0` | Títulos y enlaces en cards verdes, bordes del formulario | 8,73:1 | ✅ AA | [Ver](docs/evidencias/Secundario-sobre-primario-v2.png) |
+| `#1A471A` sobre `#B0D0B0` | No se usa esta combinación | 6,37:1 | ✅ AA | [Ver](docs/evidencias/Primario-sobre-primario-v2.png) |
+| Blanco sobre `#471A1A` | Hover y pulsado de botones | 14,67:1 | ✅ AA | [Ver](docs/evidencias/Blanco-sobre-secundario.png) |
+| `#212529` sobre blanco | Texto del cuerpo | 15,42:1 | ✅ AA | [Ver](docs/evidencias/Texto-sobre-blanco.png) |
+| `#212529` sobre `#B0D0B0` | Texto del cuerpo en cards verdes | 9,17:1 | ✅ AA | [Ver](docs/evidencias/Texto-sobre-blanco.png) |
+| `text-muted` (`#585C5E`) sobre blanco | Fechas | 6,76:1 | ✅ AA | [Ver](docs/evidencias/Texto-sobre-primario-v2.png) |
+| `text-muted` (`#45504B`) sobre `#B0D0B0` | Fechas en cards verdes | 4,99:1 | ✅ AA | [Ver](docs/evidencias/Texto-v2-sobre-primario-v2.png) |
+| Error `#842029` sobre `#B0D0B0` | Mensajes de validación | 5,62:1 | ✅ AA | [Ver](docs/evidencias/Error-sobre-primario-v2.png) |
+| Error `#842029` sobre blanco | Mensajes de validación | 9,46:1 | ✅ AA | [Ver](docs/evidencias/Error-sobre-blanco.png) |
+| Éxito `#0F5132` sobre `#B0D0B0` | Validación correcta | 5,56:1 | ✅ AA | [Ver](docs/evidencias/Exito-sobre-primario-v2.png) |
 
 No hay modo oscuro, por lo que el contraste solo se comprueba en el tema claro.
 
@@ -170,7 +147,7 @@ Resultado:
 - Calcular los ratios de contraste de la paleta.
 - Explicar cómo conectar el formulario con Formspree y escribir el código de envío con `fetch`.
 - Explicar cómo funciona el accordion y la apertura de nuevas pestañas con los enlaces.
-- Estructuración del README.md
+- Estructuración del README.md y formato para la tabla de contrastes.
 
 **Qué he decidido yo:** La paleta y las tipografías, el diseño de la página, el contenido, los textos y la estructura. POr ejemplo, en la revisón que realicé con la IA, aunque me pidió cambiarlo, mantuve el estilo del botón de la Pokédex y el nombre largo de la navbar con `text-wrap` porque me se adhería al estilo y diseño que me había planteado desde un principio.
 
