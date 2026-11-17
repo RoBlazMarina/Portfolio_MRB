@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Marina Roddríguez Blázquez · Desarrollador/a web</title>
-  <meta name="description" content="Portfolio de Tu Nombre, desarrollador/a web junior. Proyectos, habilidades y contacto.">  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+  <title>Marina Rodríguez Blázquez · Desarrolladora web</title>
+  <meta name="description" content="Portfolio de Marina Rodríguez Blázquez, desarrolladora web junior, DAW, comunicación y SEO. Proyectos, habilidades y contacto.">  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
   <!-- Bootstrap 5.3.8 + Bootstrap Icons (CDN) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -22,29 +22,30 @@
        Tu nombre/logo + enlaces: Sobre mí (#sobre-mi) · Habilidades (#habilidades)
        · Proyectos (#proyectos) · Formación (#formacion) · Contacto (#contacto)-->
 
+      <a class="visually-hidden-focusable enlace-saltar" href="#contenido">Saltar al contenido</a>
        <nav class="navbar navbar-expand-lg bg-primary sticky-top " data-bs-theme="dark">
           
           <div class="container">
-                    <h2-1 class="col col-lg-auto me-2 text-wrap">Marina Rodríguez Blázquez</h2-1>
+                    <a class="navbar-brand marca col col-lg-auto me-2 text-wrap" href="#sobre-mi">Marina Rodríguez Blázquez</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
                          <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="menu">
                          <ul class="navbar-nav ms-auto">
                               <li class="nav-item">
-                                   <a class="nav-link active" href="#sobre-mi"><i class="bi bi-person"></i> Sobre mí</a>
+                                   <a class="nav-link active" href="#sobre-mi"><i class="bi bi-person" aria-hidden="true"></i> Sobre mí</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link active" href="#habilidades"><i class="bi bi-journal-code"></i> Habilidades</a>
+                                   <a class="nav-link active" href="#habilidades"><i class="bi bi-journal-code" aria-hidden="true"></i> Habilidades</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link active" href="#proyectos"><i class="bi bi-archive"></i> Proyectos</a>
+                                   <a class="nav-link active" href="#proyectos"><i class="bi bi-archive" aria-hidden="true"></i> Proyectos</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link active" href="#formacion"><i class="bi bi-book"></i> Formación</a>
+                                   <a class="nav-link active" href="#formacion"><i class="bi bi-book" aria-hidden="true"></i> Formación</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link active" href="#contacto"><i class="bi bi-envelope"></i> Contacto</a>
+                                   <a class="nav-link active" href="#contacto"><i class="bi bi-envelope" aria-hidden="true"></i> Contacto</a>
                               </li>
                          </ul>
 
@@ -52,7 +53,7 @@
           </div>
      </nav>
 
-  <main>
+  <main id="contenido">
 
     <!-- ===== PORTADA · SOBRE MÍ (id="sobre-mi") =====
          Foto o avatar (img/foto.jpg), nombre, titular profesional, 2-3 líneas sobre ti,
@@ -64,11 +65,7 @@
 
           <!-- Contenedor de la imagen-->
                <div class="col-12 col-md-5 col-lg-5 text-center text-md-start">
-               <img 
-                    src="img/foto.jpg" 
-                    alt="Fotografía de Marina Rodríguez Blázquez" 
-                    class="img-fluid rounded-circle shadow" 
-                    style="max-width: 280px; width: 100%; aspect-ratio: 1/1; object-fit: cover;">
+               <img src="img/foto.jpg" alt="Fotografía de Marina Rodríguez Blázquez" class="img-fluid rounded-circle shadow foto-perfil">
                </div>
 
      <!-- Contenedor del texto-->
@@ -114,13 +111,9 @@
           <span class="badge text-bg-primary">HTML</span>
           <span class="badge text-bg-primary">CSS</span>
           <span class="badge text-bg-primary">JavaScript</span>
-          <span class="badge text-bg-primary">Java</span>
           <span class="badge text-bg-primary">Angular</span>
           <span class="badge text-bg-primary">React</span>
-          <span class="badge text-bg-primary">SQL</span>
-          <span class="badge text-bg-primary">XML</span>
-          <span class="badge text-bg-primary">XSD</span>
-          <span class="badge text-bg-primary">DTD</span>
+
         </div>
       </div>
 
@@ -273,7 +266,7 @@
                 </div>
 
                <div class="mt-auto d-flex justify-content-end">
-               <a href="https://github.com/RoBlazMarina/EED-CleanCode-Selenium" class="btn btn-primary" target="_blank" rel="noopener">Enlace a GitHub</a>
+               <a href="https://github.com/RoBlazMarina/EED-CleanCode-Selenium" class="btn btn-primary" target="_blank" rel="noopener">Ver Automatización en GitHub</a>
                </div>
 
           </div>
@@ -285,7 +278,7 @@
       <div class="col">
           <div class="card shadow-sm h-100  bg-primary-subtle">
 
-          <img src="img/pokedex.jpg" class="card-img-top img-fluid" alt="Captura de la Pokédex de escritorio con Oracle"> <!--METER CAPTURA-->
+          <img src="img/pokedex.jpg" class="card-img-top img-fluid" alt="Captura de la Pokédex de escritorio con Oracle">
 
           <div class="card-body d-flex flex-column">
                <h3 class="card-title h5 text-secondary">Pokédex de escritorio con Oracle</h3>
@@ -301,7 +294,7 @@
                </div>
 
                <div class="mt-auto d-flex justify-content-end">
-               <a href="https://github.com/RoBlazMarina/PROG-PokedexJava" class="btn btn-light btn-outline-secondary" target="_blank" rel="noopener">Enlace a GitHub</a>
+               <a href="https://github.com/RoBlazMarina/PROG-PokedexJava" class="btn btn-light btn-outline-secondary" target="_blank" rel="noopener">Ver Pokédex en GitHub</a>
                </div>
           </div>
           </div>
@@ -331,7 +324,7 @@
                </div>
 
                <div class="mt-auto d-flex justify-content-end">
-               <a href="https://github.com/RoBlazMarina/Contenedores_Docker" class="btn btn-primary" target="_blank" rel="noopener">Enlace a GitHub</a>
+               <a href="https://github.com/RoBlazMarina/Contenedores_Docker" class="btn btn-primary" target="_blank" rel="noopener">Ver Docker en GitHub</a>
                </div>
         </div>
       </div>
@@ -356,7 +349,7 @@
      <div class="col-12 col-lg-6">
         <h3 class="h4 text-center mb-3">Experiencia laboral</h3>
 
-        <div class="accordion shadow-sm" id="accordionExperiencia">
+        <div class="accordion shadow-sm accordion-marca" id="accordionExperiencia">
 
           <!--Piccaso-->
           <div class="accordion-item">
@@ -473,7 +466,7 @@
 
           <!--Profesora-->
           <div class="accordion-item">
-            <h4 class="accordion-heade ">
+            <h4 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp6" aria-expanded="false" aria-controls="exp6">
                 <span>
                   <strong class="d-block">Profesora de Lengua Castellana y Literatura</strong>
@@ -611,33 +604,36 @@
             <div id="mensajeExito" class="alert alert-success d-none" role="alert">
               ¡Gracias! Tu mensaje se ha enviado correctamente.
             </div>
+             <div id="mensajeError" class="alert alert-danger d-none" role="alert">
+              No se ha podido enviar el mensaje. Inténtalo de nuevo más tarde o escríbeme directamente por email.
+            </div>
 
-            <!--Añadir servicio-->
-            <form id="formContacto" class="needs-validation" novalidate>
+            
+            <form id="formContacto" class="needs-validation" action="https://formspree.io/f/mkjrjlyq" method="POST" novalidate>
               <div class="row g-3">
 
                 <!-- Nombre y email -->
                 <div class="col-12 col-lg-6">
                   <label for="nombre" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" name="nombre" minlength="2" required>
+                  <input type="text" class="form-control" id="nombre" name="nombre" minlength="2" autocomplete="name" required>
                   <div class="invalid-feedback">Escribe tu nombre (mínimo 2 caracteres).</div>
                 </div>
 
                 <div class="col-12 col-lg-6">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
+                  <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
                   <div class="invalid-feedback">Introduce un email válido.</div>
                 </div>
 
                 <div class="col-12">
                   <label for="asunto" class="form-label">Asunto</label>
-                  <input type="text" class="form-control" id="asunto" name="asunto" required>
+                  <input type="text" class="form-control" id="asunto" name="asunto" autocomplete="off" required>
                   <div class="invalid-feedback">Indica el asunto del mensaje.</div>
                 </div>
 
                 <div class="col-12">
                   <label for="mensaje" class="form-label">Mensaje</label>
-                  <textarea class="form-control" id="mensaje" name="mensaje" rows="5" minlength="10" required></textarea>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="5" minlength="10" autocomplete="off" required></textarea>
                   <div class="invalid-feedback">Escribe un mensaje (mínimo 10 caracteres).</div>
                 </div>
 
@@ -689,7 +685,6 @@
                <div class="d-flex justify-content-center justify-content-lg-start align-items-center gap-3 ps-md-5">
                <i class="bi bi-github fs-2 text-primary flex-shrink-0" aria-hidden="true"></i>
                <div class="overflow-hidden">
-                    <!-- 👉 AQUÍ tu URL de GitHub -->
                     <a href="https://github.com/RoBlazMarina" class="link-secondary text-break" target="_blank" rel="noopener">github.com/RoBlazMarina</a>
                </div>
                </div>
@@ -718,7 +713,7 @@
       </div>
 
      <!--Redes-->
-     <div class="col-12 col-md-6 col-lg-4 text-md-end text-lg-center"> <!--Meter URL-->
+     <div class="col-12 col-md-6 col-lg-4 text-md-end text-lg-center"> 
         <a href="mailto:rodriguez.blazquez.marina@gmail.com" class="link-light fs-4 mx-2" aria-label="Enviar un email a Marina">
           <i class="bi bi-envelope-fill" aria-hidden="true"></i>
         </a>
@@ -741,9 +736,7 @@
 </footer>
 
 <!-- Botón volver arriba (solo móvil y tableta) -->
-<a href="#" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-3 z-3 d-lg-none d-flex align-items-center justify-content-center shadow"
-   style="width: 3rem; height: 3rem;"
-   aria-label="Volver al inicio de la página">
+<a href="#sobre-mi" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-3 z-3 d-lg-none d-flex align-items-center justify-content-center shadow btn-subir" aria-label="Volver al inicio de la página">
   <i class="bi bi-arrow-up fs-5" aria-hidden="true"></i>
 </a>
 
