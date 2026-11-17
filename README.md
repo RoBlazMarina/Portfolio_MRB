@@ -1,23 +1,3 @@
-# Portfolio de Marina Rodríguez Blázquez
-
-Portfolio profesional desarrollado con **HTML5 y Bootstrap 5.3** en el módulo
-Diseño de Interfaces Web (2.º DAW).
-
-🔗 **Web publicada:** https://roblazmarina.github.io/Portfolio_MRB/#
-
-## Tecnologías
-- HTML5 · CSS3 · Bootstrap 5.3 · Bootstrap Icons · JavaScript
-
-## Estructura
-```
-index.html
-css/estilos.css
-js/main.js
-img/    ← foto y capturas de proyectos
-docs/   ← cv.pdf
-```
-
-
 # Portfolio profesional · Marina Rodríguez Blázquez
 
 Portfolio web personal de desarrolladora web (DAW) con base en comunicación y SEO.
@@ -63,7 +43,7 @@ ej09-portfolio/
 | Blanco | `#FFFFFF` | Fondo de página y texto sobre colores de marca |
 | Gris casi negro | `#212529` | Texto del cuerpo (valor por defecto de Bootstrap) |
 
-**Tipografías (2):** Cambria/Georgia (serif) para cuerpo y `h1`, y Verdana (sans-serif) para los `h2`.
+**Tipografías:** Cambria/Georgia (serif) para cuerpo y `h1`, y Verdana (sans-serif) para los `h2`.
 
 ### Ratios de contraste (WCAG 2.1 AA)
 
